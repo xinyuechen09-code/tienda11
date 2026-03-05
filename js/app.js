@@ -26,6 +26,14 @@ function stripQuotes(s) {
   return s.replace(/^"(.*)"$/, "$1");
 }
 
+// Buscamos el objeto que tiene el mayor número de unidades
+const productoTop = filtrado.reduce((prev, current) => {
+    return (prev.UNIDADES_VEN > current.UNIDADES_VEN) ? prev : current;
+});
+
+// Lo pintamos en el HTML
+document.getElementById('kpiMaxVenta').innerText = productoTop.PRODUCTO;
+
 // Parte la línea respetando comillas
 function splitCSVLine(line) {
   const out = [];
