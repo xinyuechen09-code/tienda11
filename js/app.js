@@ -31,6 +31,11 @@ const productoTop = filtrado.reduce((prev, current) => {
     return (prev.UNIDADES_VEN > current.UNIDADES_VEN) ? prev : current;
 });
 
+// Dentro de updateFiltered()
+const productoTop = filtrado.reduce((prev, current) => {
+    return (prev.UNIDADES_VEN > current.UNIDADES_VEN) ? prev : current;
+});
+
 // Pintamos solo el texto del nombre
 document.getElementById('kpiMaxVenta').innerText = productoTop.PRODUCTO;
 
