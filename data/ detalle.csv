@@ -1,4 +1,4 @@
-"estado","nivel_de_rentabi","producto","unidades_vendida","beneficio_total_eur"
+"estado","nivel","producto","unidades","beneficio_total"
 "MUY RENTABLE","ALTA","Blusa","120","1.44"
 "MUY RENTABLE","ALTA","Botas","30","1.05"
 "RENTABLE","MEDIA","Falda","28","280"
@@ -16,4 +16,5 @@
 "RENTABLE","MEDIA","Cartera","25","250"
 "MUY RENTABLE","MEDIA","Knitwear","35","455"
 "RENTABLE","BAJA","Falda Midi","22","198"
+
 
